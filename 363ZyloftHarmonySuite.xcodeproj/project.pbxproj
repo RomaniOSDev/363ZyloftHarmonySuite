@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05E8857C142FB089CA3F22FC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056C6FEA7C9285AFB0E39EF4 /* Theme.swift */; };
+		1573F69B62A46795FFAF901D /* StudioViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4EB354F1E5A13F840868C8 /* StudioViews.swift */; };
+		1E7707B55A1867C8BF4151B8 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A46BD026F8BB7855E83F09 /* Models.swift */; };
+		523FC91E31AF62CE81C66209 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44237AE460B20E524DDD6DBB /* DataStore.swift */; };
+		7032148A3CF846FB83FB7F43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC47E323501658EBF9C5391 /* LaunchScreen.storyboard */; };
+		7BA5E37FB282B1C8C1E8F8D3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DB6C6004FB05980B1ADB3E98 /* PrivacyInfo.xcprivacy */; };
+		80FABEF4F029D0A7D7E7E69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D41B5DB9B9033412C4AC147 /* Assets.xcassets */; };
+		8C4A17E29B6D40F1A3E5C8D2 /* StudioExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F04C1A7E84D6B90C3F1A8 /* StudioExtras.swift */; };
+		97140A86DA9F16075F848904 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D381E407A35CBDAFA63AB80 /* ContentView.swift */; };
+		CA925D6A1E8E06534FBFAD4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF8F9CCDAA97950F16EB423 /* AppDelegate.swift */; };
+		E92D95C13010079DE3D7FAA4 /* MagazineCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40A63ABBB4A17F7ABE49C7D /* MagazineCard.swift */; };
+		FCA2A9571CCFF3684A618B7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAEA83EFB6D36CAC669AFF /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		056C6FEA7C9285AFB0E39EF4 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		0D99A3E721D4227B1B29F5FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10EF694709F7811496A35DA3 /* Pods_363ZyloftHarmonySuite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_363ZyloftHarmonySuite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC47E323501658EBF9C5391 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B9F04C1A7E84D6B90C3F1A8 /* StudioExtras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StudioExtras.swift; sourceTree = "<group>"; };
+		44237AE460B20E524DDD6DBB /* DataStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		4D381E407A35CBDAFA63AB80 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D41B5DB9B9033412C4AC147 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		745480820DB4D719FAF248C5 /* Pods-363ZyloftHarmonySuite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-363ZyloftHarmonySuite.debug.xcconfig"; path = "Target Support Files/Pods-363ZyloftHarmonySuite/Pods-363ZyloftHarmonySuite.debug.xcconfig"; sourceTree = "<group>"; };
+		7C6AFB7924469D3F8F76B374 /* Pods-363ZyloftHarmonySuite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-363ZyloftHarmonySuite.release.xcconfig"; path = "Target Support Files/Pods-363ZyloftHarmonySuite/Pods-363ZyloftHarmonySuite.release.xcconfig"; sourceTree = "<group>"; };
+		B40A63ABBB4A17F7ABE49C7D /* MagazineCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MagazineCard.swift; sourceTree = "<group>"; };
+		B52633E3B5A2C914F00A27BF /* 363ZyloftHarmonySuite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 363ZyloftHarmonySuite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A46BD026F8BB7855E83F09 /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DB6C6004FB05980B1ADB3E98 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		EC4EB354F1E5A13F840868C8 /* StudioViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StudioViews.swift; sourceTree = "<group>"; };
+		EEF8F9CCDAA97950F16EB423 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2BAEA83EFB6D36CAC669AFF /* SceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32FC4CB800C42434883CA27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06BBE7965BBD1A791DE92EAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C1A46BD026F8BB7855E83F09 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		493B8F827D7929C989CB9987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B52633E3B5A2C914F00A27BF /* 363ZyloftHarmonySuite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654D91B69AC024B6BBBBA7E6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B40A63ABBB4A17F7ABE49C7D /* MagazineCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		82F522651D348DC827CF7591 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10EF694709F7811496A35DA3 /* Pods_363ZyloftHarmonySuite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93C441D5BCE16197C600C3A9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				44237AE460B20E524DDD6DBB /* DataStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A9F4DDE4679CF6D9B97C9A64 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EEF8F9CCDAA97950F16EB423 /* AppDelegate.swift */,
+				F2BAEA83EFB6D36CAC669AFF /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C14492ADD36D5F7ACA515317 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				056C6FEA7C9285AFB0E39EF4 /* Theme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C559C8618501FC234D29D6BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D381E407A35CBDAFA63AB80 /* ContentView.swift */,
+				EC4EB354F1E5A13F840868C8 /* StudioViews.swift */,
+				2B9F04C1A7E84D6B90C3F1A8 /* StudioExtras.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1AA60560C5935A3C15B153A = {
+			isa = PBXGroup;
+			children = (
+				FAF60B4C5A6BEEFC4281F0F5 /* 363ZyloftHarmonySuite */,
+				493B8F827D7929C989CB9987 /* Products */,
+				82F522651D348DC827CF7591 /* Frameworks */,
+				E6D3CB57B060654126F32014 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E6D3CB57B060654126F32014 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				745480820DB4D719FAF248C5 /* Pods-363ZyloftHarmonySuite.debug.xcconfig */,
+				7C6AFB7924469D3F8F76B374 /* Pods-363ZyloftHarmonySuite.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAF60B4C5A6BEEFC4281F0F5 /* 363ZyloftHarmonySuite */ = {
+			isa = PBXGroup;
+			children = (
+				A9F4DDE4679CF6D9B97C9A64 /* App */,
+				654D91B69AC024B6BBBBA7E6 /* Components */,
+				06BBE7965BBD1A791DE92EAB /* Models */,
+				93C441D5BCE16197C600C3A9 /* Services */,
+				C14492ADD36D5F7ACA515317 /* Utilities */,
+				C559C8618501FC234D29D6BB /* Views */,
+				5D41B5DB9B9033412C4AC147 /* Assets.xcassets */,
+				1EC47E323501658EBF9C5391 /* LaunchScreen.storyboard */,
+				DB6C6004FB05980B1ADB3E98 /* PrivacyInfo.xcprivacy */,
+				0D99A3E721D4227B1B29F5FF /* Info.plist */,
+			);
+			path = 363ZyloftHarmonySuite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		827506441C261EEAFF98FE67 /* 363ZyloftHarmonySuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D5F8C3974E5672951D8F0AE /* Build configuration list for PBXNativeTarget "363ZyloftHarmonySuite" */;
+			buildPhases = (
+				4BC804A6FC12385863A823AD /* [CP] Check Pods Manifest.lock */,
+				42E3C10EB0BEE783FD5FD7F5 /* Sources */,
+				32FC4CB800C42434883CA27C /* Frameworks */,
+				FAEB7B2B4CB334A786CD00D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 363ZyloftHarmonySuite;
+			productName = 363ZyloftHarmonySuite;
+			productReference = B52633E3B5A2C914F00A27BF /* 363ZyloftHarmonySuite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C60C095E488192B52F4A4B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 9763965A6C0E4CB122DB7457 /* Build configuration list for PBXProject "363ZyloftHarmonySuite" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1AA60560C5935A3C15B153A;
+			productRefGroup = 493B8F827D7929C989CB9987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				827506441C261EEAFF98FE67 /* 363ZyloftHarmonySuite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEB7B2B4CB334A786CD00D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FABEF4F029D0A7D7E7E69A /* Assets.xcassets in Resources */,
+				7032148A3CF846FB83FB7F43 /* LaunchScreen.storyboard in Resources */,
+				7BA5E37FB282B1C8C1E8F8D3 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BC804A6FC12385863A823AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-363ZyloftHarmonySuite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42E3C10EB0BEE783FD5FD7F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA925D6A1E8E06534FBFAD4E /* AppDelegate.swift in Sources */,
+				FCA2A9571CCFF3684A618B7A /* SceneDelegate.swift in Sources */,
+				E92D95C13010079DE3D7FAA4 /* MagazineCard.swift in Sources */,
+				1E7707B55A1867C8BF4151B8 /* Models.swift in Sources */,
+				523FC91E31AF62CE81C66209 /* DataStore.swift in Sources */,
+				05E8857C142FB089CA3F22FC /* Theme.swift in Sources */,
+				97140A86DA9F16075F848904 /* ContentView.swift in Sources */,
+				1573F69B62A46795FFAF901D /* StudioViews.swift in Sources */,
+				8C4A17E29B6D40F1A3E5C8D2 /* StudioExtras.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16CC95C750D1CE691919D804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B0B52676D3B7F98AAF73F537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C138EB463170B109235C1EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 745480820DB4D719FAF248C5 /* Pods-363ZyloftHarmonySuite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 363ZyloftHarmonySuite/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zyloft Harmony Suite";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sim.z7l2fth7rm0nys51tt4;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E5B2723B6DF8AC7F4F0BC590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6AFB7924469D3F8F76B374 /* Pods-363ZyloftHarmonySuite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 363ZyloftHarmonySuite/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zyloft Harmony Suite";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sim.z7l2fth7rm0nys51tt4;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D5F8C3974E5672951D8F0AE /* Build configuration list for PBXNativeTarget "363ZyloftHarmonySuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C138EB463170B109235C1EF2 /* Debug */,
+				E5B2723B6DF8AC7F4F0BC590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9763965A6C0E4CB122DB7457 /* Build configuration list for PBXProject "363ZyloftHarmonySuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B52676D3B7F98AAF73F537 /* Debug */,
+				16CC95C750D1CE691919D804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C60C095E488192B52F4A4B6 /* Project object */;
+}
