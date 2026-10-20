@@ -468,7 +468,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sim.z7l2fth7rm0nys51tt4;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
@@ -502,7 +502,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sim.z7l2fth7rm0nys51tt4;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = NO;
